@@ -626,6 +626,27 @@ footer {
 }
 
 @media screen and (max-width:424px) {
+
+
+    .jumbotron {
+        .container {
+            .title {
+                top:25%;
+                left:12%;
+                h5 {
+                    font-size: 0.8em;
+                }
+                h3 {
+                    font-size:0.8em;
+                }
+            }
+        }
+    }
+
+    
+}
+
+@media screen and (max-width:424px) {
     .video {
         .video-text {
             .inner {
@@ -639,20 +660,7 @@ footer {
         }
     }
 
-    .jumbotron {
-        .container {
-            .title {
-                top:25%;
-                left:10%;
-                h5 {
-                    font-size: 0.8em;
-                }
-                h3 {
-                    font-size:0.8em;
-                }
-            }
-        }
-    }
+
 
     
 }

@@ -467,21 +467,22 @@ footer .footer-contents p {
   }
 }
 @media screen and (max-width: 424px) {
-  .video .video-text .inner h3 {
-    font-size: 1.2em;
-  }
-  .video .video-text .inner p {
-    font-size: 0.8em;
-  }
-
   .jumbotron .container .title {
     top: 25%;
-    left: 10%;
+    left: 12%;
   }
   .jumbotron .container .title h5 {
     font-size: 0.8em;
   }
   .jumbotron .container .title h3 {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 424px) {
+  .video .video-text .inner h3 {
+    font-size: 1.2em;
+  }
+  .video .video-text .inner p {
     font-size: 0.8em;
   }
 }
