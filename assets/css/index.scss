@@ -504,6 +504,27 @@ footer {
         }
     }
 
+    .section06 {
+        .container {
+            .subscription {
+                padding:20px 5px;
+                h6 {
+                    text-align: center;
+                    span {
+                        font-size: 0.8em;
+                        padding:5px;
+                    }
+                }
+                h5 {
+                    text-align: center;
+                    span {
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+
     .section-mobile {
         .mobile-text {
             padding: 20px;
@@ -551,6 +572,8 @@ footer {
             }
         }
     }
+
+    
 }
 
 @media screen and (max-width:375px) {

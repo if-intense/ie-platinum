@@ -147,11 +147,15 @@
         
           
           <div class="embed-video col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-10 offset-1 my-5">
-            <video src="assets/images/tokio-video1.mp4" controls muted autoplay loop controlsList="nodownload"></video>
+            <video controls autoplay muted playsinline loop controlsList="nodownload">
+              <source src="assets/images/tokio-video1.mp4" type="video/mp4">
+            </video>
           </div>
 
           <div class="embed-video col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-10 offset-1 my-5">
-            <video src="assets/images/tokio-video2.mp4" controls muted loop controlsList="nodownload"></video>
+            <video controls muted loop controlsList="nodownload">
+              <source src="assets/images/tokio-video2.mp4" type="video/mp4">
+            </video>
           </div>
 
 
@@ -222,7 +226,7 @@
 
         <section class="section-mobile">
           <div class="container">
-            <video id="videoBG" autoplay muted playsinline loop controlsList="nodownload">
+            <video id="videoBG1" autoplay muted playsinline loop controlsList="nodownload">
               <source src="assets/images/video-sbm.mp4" type="video/mp4">  
             </video>
           </div>
