@@ -23,6 +23,10 @@
     <!-- Noto Sans JP Font -->
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
    
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -124,9 +128,16 @@
 
 
 
-      <div class="jumbotron bg-secondary">
+      <div class="jumbotron">
         <div class="container text-center">
-          <img src="assets/images/tokio-pl-img.jpg" alt="TOKIO" class="img-fluid">
+          <div class="title col-lg-4 col-md-5 col-sm-5 col-5">
+            <h1><img src="assets/images/tokio-inkarami-logo.png" alt="TOKIO INKARAMI" class="img-fluid"></h1>
+            <h3>プラチナムシリーズ</h3>
+            <h5 class="mt-3">圧倒的人気No.1のヘアケア</h5>
+            <p class="mt-3">唯一、お風呂で簡単にできる<br>サロントリートメント</p>
+          </div>
+          <img src="assets/images/tokio-bg.jpg" alt="TOKIO" class="img-fluid">
+          
         </div>
       </div>
 
@@ -134,16 +145,22 @@
 
     <div class="tokio">
         
+          
+          <div class="embed-video col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-10 offset-1 my-5">
+            <video src="assets/images/tokio-video1.mp4" controls muted autoplay loop controlsList="nodownload"></video>
+          </div>
+
+          <div class="embed-video col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-10 offset-1 my-5">
+            <video src="assets/images/tokio-video2.mp4" controls muted loop controlsList="nodownload"></video>
+          </div>
+
+
           <div class="inner">
-            <h3>なぜ<span>TOKIO</span>は圧倒的な指示を得ているのか</h3>
-            <p>その理由は..</p>
+            <!-- <h3>なぜ<span>TOKIO</span>は圧倒的な指示を得ているのか</h3>
+            <p>その理由は..</p> -->
             
             <a href="http://www.tokio.tokyo/tokiostars.html">詳しくはこちら</a>
           </div>
-          <div class="embed-video col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-10 offset-1">
-            <video src="assets/images/tokio-video1.mp4" controls muted autoplay loop></video>
-          </div>
-
           
         
         
@@ -187,7 +204,7 @@
                       <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 section02-text">
                         <div class="row mx-0">
                           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 img-area">
-                            <div class="img text-center" style="background:rgba(255, 255, 255,0.7);">
+                            <div class="img text-center">
                               <img :src="imgSource" alt="TOKIO IE HEAD SPA" class="img-fluid">
                             </div>
                           </div>
@@ -201,6 +218,25 @@
             <video id="videoBG" autoplay muted playsinline loop controlsList="nodownload">
               <source src="assets/images/video-sbm.mp4" type="video/mp4">  
             </video>
+        </section>
+
+        <section class="section-mobile">
+          <div class="container">
+            <video id="videoBG" autoplay muted playsinline loop controlsList="nodownload">
+              <source src="assets/images/video-sbm.mp4" type="video/mp4">  
+            </video>
+          </div>
+          <div class="mobile-text">
+            <img src="assets/images/platinum-logo.png" alt="" class="img-fluid">
+            <p>
+              ダントツ一番人気のプラチナムシリーズは、髪のダメージをケアしながらふんわり・柔らかい髪質に整えて、
+              しっとり・さらさらに仕上げます。シャンプー・トリートメントともに髪と同じ成分を使用しているので、
+              洗うたびに健康な状態に近づけてくれます。特にシルクのようしなやかな指通りで、軽いのにしっとりまとまる仕上がり感が好評です。
+              シャンプーの泡感は弾力感が抜群で、豊富な泡感を感じて頂けます。
+              また、トリートメントに関しても髪に馴染ませた瞬間とろけるような柔らかさを実感して頂けます。
+              どれを使うか悩んだ際は、こちらのプラチナムシリーズがオススメです。
+            </p>
+          </div>
         </section>
 
 

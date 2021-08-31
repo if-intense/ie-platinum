@@ -10,6 +10,10 @@
   color: red;
 }
 
+.section-mobile {
+  display: none;
+}
+
 .owl-carousel .owl-stage {
   display: flex;
 }
@@ -19,9 +23,15 @@
 }
 
 .jumbotron .container {
-  width: 100%;
-  padding: 0;
-  min-width: 350px;
+  position: relative;
+}
+.jumbotron .container .title {
+  font-family: "Klee One", cursive;
+  z-index: 2;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  transform: translate(0%, 5%);
 }
 
 .to-outside-link {
@@ -285,37 +295,62 @@ footer .footer-contents p {
     text-align: center;
   }
 }
-@media screen and (max-width: 640px) {
-  .test {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media screen and (max-width: 768px) {
+  .section-mobile {
+    display: block;
+    background: olivedrab;
   }
-  .test .video-text {
-    z-index: 2;
-    font-family: "ヒラギノ明朝 Pro W3", Hiragino Mincho Pro, "ＭＳ Ｐ明朝", MS PMincho, serif;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5vh 0;
-  }
-  .test .video-text .section02-text .inner .img-area .img {
-    background: #f8f0e3;
-  }
-  .test .video-text .section02-text .inner .about p {
-    font-size: 1em;
-    line-height: 2em;
-  }
-  .test #videoBG {
-    height: 100vh;
+  .section-mobile .container {
     width: 100%;
-    object-fit: cover;
-    position: relative;
+    max-width: 668px;
+    aspect-ratio: 16/9;
+  }
+  .section-mobile .container video {
+    width: 100%;
+  }
+  .section-mobile .mobile-text {
+    padding: 20px;
+  }
+
+  .test {
+    display: none;
+  }
+}
+@media screen and (max-width: 520px) {
+  .jumbotron .container .title {
+    top: 25%;
+    left: 5%;
+  }
+  .jumbotron .container .title h3 {
+    font-family: "Klee One", cursive;
+    font-size: 1em;
+  }
+  .jumbotron .container .title h5 {
+    font-size: 0.9em;
+  }
+  .jumbotron .container .title p {
+    font-size: 0.8em;
+  }
+
+  .section-mobile .mobile-text {
+    line-height: 2em;
   }
 }
 @media screen and (max-width: 500px) {
+  .jumbotron .container {
+    position: relative;
+  }
+  .jumbotron .container .title {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+  }
+  .jumbotron .container .title h3 {
+    font-family: "Klee One", cursive;
+    font-size: 0.8em;
+  }
+
   .video .video-text .inner h3 {
     font-size: 1.25em;
   }
@@ -327,40 +362,16 @@ footer .footer-contents p {
     font-size: 0.8em;
   }
 
+  .section-mobile .mobile-text {
+    padding: 20px;
+    font-size: 0.8em;
+  }
+
   .tokio .inner h3 {
     font-size: 1.1em;
   }
   .tokio .inner p, .tokio .inner a {
     font-size: 0.9em;
-  }
-
-  .test {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .test .video-text {
-    z-index: 2;
-    font-family: "ヒラギノ明朝 Pro W3", Hiragino Mincho Pro, "ＭＳ Ｐ明朝", MS PMincho, serif;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5vh 0;
-  }
-  .test .video-text .section02-text .inner .img-area .img {
-    background: #f8f0e3;
-  }
-  .test .video-text .section02-text .inner .about p {
-    font-size: 1em;
-    line-height: 2em;
-  }
-  .test #videoBG {
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-    position: relative;
   }
 }
 @media screen and (max-width: 424px) {
