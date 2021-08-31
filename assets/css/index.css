@@ -296,6 +296,19 @@ footer .footer-contents p {
   }
 }
 @media screen and (max-width: 768px) {
+  .jumbotron .container .title {
+    top: 25%;
+  }
+  .jumbotron .container .title h3 {
+    font-size: 1em;
+  }
+  .jumbotron .container .title h5 {
+    font-size: 0.9em;
+  }
+  .jumbotron .container .title p {
+    font-size: 0.8em;
+  }
+
   .section-mobile {
     display: block;
     background: olivedrab;
@@ -337,13 +350,8 @@ footer .footer-contents p {
   }
 }
 @media screen and (max-width: 500px) {
-  .jumbotron .container {
-    position: relative;
-  }
   .jumbotron .container .title {
-    z-index: 2;
-    position: absolute;
-    top: 50%;
+    top: 25%;
     left: 5%;
   }
   .jumbotron .container .title h3 {
@@ -381,8 +389,30 @@ footer .footer-contents p {
   .video .video-text .inner p {
     font-size: 0.8em;
   }
+
+  .jumbotron .container .title {
+    top: 20%;
+    left: 5%;
+  }
+  .jumbotron .container .title h5 {
+    font-size: 0.8em;
+  }
+  .jumbotron .container .title h3 {
+    font-size: 0.8em;
+  }
 }
 @media screen and (max-width: 375px) {
+  .jumbotron .container .title {
+    top: 20%;
+    left: 5%;
+  }
+  .jumbotron .container .title h5 {
+    font-size: 0.7em;
+  }
+  .jumbotron .container .title p {
+    font-size: 0.6em;
+  }
+
   .video .video-text .inner h3 {
     font-size: 1em;
   }

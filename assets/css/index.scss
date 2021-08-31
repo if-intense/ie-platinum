@@ -359,6 +359,25 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+
+
+
+        .jumbotron {
+            .container {
+                .title {
+                    top:25%;
+                    h3 {
+                        font-size:1em;
+                    }
+                    h5 {
+                        font-size:0.9em;
+                    }
+                    p {
+                        font-size:0.8em;
+                    };
+                }
+            }
+        }
     .section-mobile {
         display: block;
         background:olivedrab;
@@ -452,13 +471,9 @@ footer {
 @media screen and (max-width:500px) {
 
     .jumbotron {
-        
         .container {
-            position:relative;
             .title {
-                z-index:2;
-                position:absolute;
-                top:50%;
+                top:25%;
                 left:5%;
                 h3 {
                     font-family: 'Klee One', cursive;
@@ -521,9 +536,41 @@ footer {
             }
         }
     }
+
+    .jumbotron {
+        .container {
+            .title {
+                top:20%;
+                left:5%;
+                h5 {
+                    font-size: 0.8em;
+                }
+                h3 {
+                    font-size:0.8em;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:375px) {
+    
+    .jumbotron {
+        .container {
+            .title {
+                top:20%;
+                left:5%;
+                h5 {
+                    font-size: 0.7em;
+                }
+                p {
+                    font-size:0.6em;
+                }
+            }
+        }
+    }
+    
+    
     .video {
         .video-text {
             .inner {
