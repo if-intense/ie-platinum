@@ -51,10 +51,10 @@ $tokio-red: #B51423;
 }
 
 .tokio {
-    padding:4vh 0;
+    padding:2vh 0 1vh;
     font-family: $tokio-font;
     background: rgb(204,217,240);
-    background: linear-gradient(320deg, rgba(204,217,240,1) 0%, rgba(255,255,255,1) 100%);
+    // background: linear-gradient(320deg, rgba(204,217,240,1) 0%, rgba(255,255,255,1) 100%);
     .inner {
         text-align: center;
         h3 {

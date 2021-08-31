@@ -43,10 +43,9 @@
 }
 
 .tokio {
-  padding: 4vh 0;
+  padding: 2vh 0 1vh;
   font-family: "ヒラギノ明朝 Pro W3", Hiragino Mincho Pro, "ＭＳ Ｐ明朝", MS PMincho, serif;
   background: #ccd9f0;
-  background: linear-gradient(320deg, #ccd9f0 0%, white 100%);
 }
 .tokio .inner {
   text-align: center;
