@@ -466,9 +466,9 @@ footer .footer-contents p {
     font-size: 0.9em;
   }
 }
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 428px) {
   .jumbotron .container .title {
-    top: 25%;
+    top: 28%;
     left: 12%;
   }
   .jumbotron .container .title h5 {
@@ -487,10 +487,6 @@ footer .footer-contents p {
   }
 }
 @media screen and (max-width: 375px) {
-  .jumbotron .container .title {
-    top: 20%;
-    left: 5%;
-  }
   .jumbotron .container .title h5 {
     font-size: 0.7em;
   }
