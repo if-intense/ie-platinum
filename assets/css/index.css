@@ -311,7 +311,7 @@ footer .footer-contents p {
 
   .section-mobile {
     display: block;
-    background: olivedrab;
+    background: rgba(186, 186, 186, 0.6);
   }
   .section-mobile .container {
     width: 100%;
