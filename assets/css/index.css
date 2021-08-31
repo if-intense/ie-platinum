@@ -30,7 +30,7 @@
   z-index: 2;
   position: absolute;
   left: 1%;
-  top: 35%;
+  top: 30%;
   transform: translate(0%, 5%);
 }
 .jumbotron .container .title h3 {
@@ -412,7 +412,6 @@ footer .footer-contents p {
 }
 @media screen and (max-width: 500px) {
   .jumbotron .container .title {
-    top: 35%;
     left: 10%;
   }
   .jumbotron .container .title h3 {
@@ -476,8 +475,8 @@ footer .footer-contents p {
   }
 
   .jumbotron .container .title {
-    top: 20%;
-    left: 5%;
+    top: 25%;
+    left: 10%;
   }
   .jumbotron .container .title h5 {
     font-size: 0.8em;
