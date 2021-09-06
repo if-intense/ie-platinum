@@ -5,10 +5,10 @@ var vm = new Vue({
         {name: 'プラチナム シャンプー', size: "200ml", img:'assets/images/product_image/001_platinum_shampoo_200.png', price: 2300, taxPrice: 2530, purchaseLink: 'https://ifing-beauty.com/products/detail/69', stock: true, sub: false },
         {name: 'プラチナム シャンプー', size: "500ml", img:'assets/images/product_image/002_platinum_shampoo_500.png', price: 4500, taxPrice: 4950, purchaseLink: 'https://ifing-beauty.com/products/detail/70', stock: true, sub: false },
         {name: 'プラチナム シャンプー', size: "900ml", img:'assets/images/product_image/003_platinum_shampoo_900.png', price: 6600, taxPrice: 7220, purchaseLink: 'https://ifing-beauty.com/products/detail/71', stock: true, sub: false},
-        {name: 'プラチナム トリートメント', size: "200ml", img:'assets/images/product_image/004_platinum_treatment_200.png', price: 2500, taxPrice: 2750, purchaseLink: 'https://ifing-beauty.com/products/detail/72', stock: true, sub: false},
-        {name: 'プラチナム トリートメント', size: "500ml", img:'assets/images/product_image/005_platinum_treatment_500.png', price: 4800, taxPrice: 5280, purchaseLink: 'https://ifing-beauty.com/products/detail/73', stock: true, sub: false},
-        {name: 'プラチナム トリートメント', size: "900ml", img:'assets/images/product_image/006_platinum_treatment_900.png', price: 7000, taxPrice: 7700, purchaseLink: 'https://ifing-beauty.com/products/detail/74', stock: true, sub: false},
-        {name: 'オイルトリートメント', size: "900ml", img:'assets/images/product_image/007_platinum_outkarami.png', price: 3200, taxPrice: 3520, purchaseLink: 'https://ifing-beauty.com/products/detail/74', stock: true, sub: false},
+        {name: 'プラチナム トリートメント', size: "200g", img:'assets/images/product_image/004_platinum_treatment_200.png', price: 2500, taxPrice: 2750, purchaseLink: 'https://ifing-beauty.com/products/detail/72', stock: true, sub: false},
+        {name: 'プラチナム トリートメント', size: "500g", img:'assets/images/product_image/005_platinum_treatment_500.png', price: 4800, taxPrice: 5280, purchaseLink: 'https://ifing-beauty.com/products/detail/73', stock: true, sub: false},
+        {name: 'プラチナム トリートメント', size: "900g", img:'assets/images/product_image/006_platinum_treatment_900.png', price: 7000, taxPrice: 7700, purchaseLink: 'https://ifing-beauty.com/products/detail/74', stock: true, sub: false},
+        {name: 'オイルトリートメント', size: "200ml", img:'assets/images/product_image/007_platinum_outkarami.png', price: 3200, taxPrice: 3520, purchaseLink: 'https://ifing-beauty.com/products/detail/74', stock: true, sub: false},
         {name: '500サイズセット', size: "《初回特典有》", img:'assets/images/product_image/subscription500.png', price: 10735, taxPrice: 11809, purchaseLink: 'https://ifing-beauty.com/products/detail/77', stock: true, sub: true},
         {name: '900サイズセット', size: "《初回特典有》", img:'assets/images/product_image/subscription900.png', price: 14535, taxPrice: 15989, purchaseLink: 'https://ifing-beauty.com/products/detail/78', stock: true, sub: true },
       ]
@@ -20,8 +20,8 @@ var vm = new Vue({
     el: '#course',
     data: {
       courses: [
-        {name: 'シャンプー＆トリートメント500サイズ', span: '2ヶ月分', subImg:'assets/images/product_image/subscription500.png', text1: 'シャンプー 500ml', text2: 'トリートメント 500ml', text3: 'オイルトリートメント 100ml', text4: 'トラベルセット(40ml, 40g, 25ml)', originalPrice: 14600, newPrice: 8835, subscriptionLink: 'https://ifing-beauty.com/products/detail/60', regularPurchaseLink: 'https://ifing-beauty.com/products/detail/65', stock: true },
-        {name: 'シャンプー＆トリートメント900サイズ', span: '2ヶ月分', subImg:'assets/images/product_image/subscription900.png', text1: 'シャンプー 900ml', text2: 'トリートメント 900ml', text3: 'オイルトリートメント 100ml', text4: 'トラベルセット(40ml, 40g, 25ml)', originalPrice: 18900, newPrice: 12920, subscriptionLink: 'https://ifing-beauty.com/products/detail/61', regularPurchaseLink: 'https://ifing-beauty.com/products/detail/67', stock: true },
+        {name: 'シャンプー＆トリートメント500サイズ', span: '2ヶ月分', subImg:'assets/images/product_image/subscription500.png', Img2: 'assets/images/product_image/set2.png', text1: 'シャンプー 500ml', text2: 'トリートメント 500ml', text3: 'オイルトリートメント 100ml', text4: 'トラベルセット(40ml, 40g, 25ml)', originalPrice: 14600, newPrice: 8835, subscriptionLink: 'https://ifing-beauty.com/products/detail/60', regularPurchaseLink: 'https://ifing-beauty.com/products/detail/65', stock: true },
+        {name: 'シャンプー＆トリートメント900サイズ', span: '2ヶ月分', subImg:'assets/images/product_image/subscription900.png', Img2: 'assets/images/product_image/set1.png',  text1: 'シャンプー 900ml', text2: 'トリートメント 900ml', text3: 'オイルトリートメント 100ml', text4: 'トラベルセット(40ml, 40g, 25ml)', originalPrice: 18900, newPrice: 12920, subscriptionLink: 'https://ifing-beauty.com/products/detail/61', regularPurchaseLink: 'https://ifing-beauty.com/products/detail/67', stock: true },
       ]
     }
   });
